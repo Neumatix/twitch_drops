@@ -96,7 +96,7 @@ def start():
         connected = False
         try:
             # Check for connected text in information, else drop wont activate, no point continuing
-            if c.find_element_by_tag_name('span[class="ScPill-sc-1cbrhuy-0 kDgWbl tw-pill tw-semibold tw-upcase"]').text.lower() == 'connected':
+            if c.find_element_by_tag_name('span[class="ScPill-sc-1cbrhuy-0 gPYNeT tw-pill tw-semibold tw-upcase"]').text.lower() == 'connected':
                 connected = True
         except:
             print('Game Account Not Connected.')
